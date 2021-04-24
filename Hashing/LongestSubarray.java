@@ -1,6 +1,6 @@
 import java.util.*;
 public class LongestSubarray{
-    static int LongestSubarray(int []arr,int sum)
+    static int LongestSubarrayWithGivenSum(int []arr,int sum)
     {
         int res=0,prefix_sum=0;
         Map<Integer,Integer> m= new HashMap<>();
@@ -22,7 +22,7 @@ public class LongestSubarray{
     {
         int[] arr={8,3,1,5,-6,6,2,2};
         int sum=4;
-        System.out.println(LongestSubarray(arr,sum));
+        System.out.println(LongestSubarrayWithGivenSum(arr,sum));
        
     }
 }
