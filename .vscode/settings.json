@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Hashing",
         "Arrays",
-        "Hashing"
+        "Strings"
     ]
 }
