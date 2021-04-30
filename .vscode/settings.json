@@ -1,9 +1,11 @@
 {
     "java.project.sourcePaths": [
         "Strings",
+        "Searching",
         "Matix",
+        "LinkedList",
         "Hashing",
         "Arrays",
-        "Searching"
+        "BitwiseOperators"
     ]
 }
